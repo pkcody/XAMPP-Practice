@@ -28,6 +28,7 @@ public class ItemManager : MonoBehaviour
     {
         //Parsing json array string as an array
         JSONArray jsonArray = JSON.Parse(jsonArrayString) as JSONArray;
+        print(jsonArrayString);
 
         for (int i = 0; i < jsonArray.Count; i++)
         {

@@ -7,7 +7,7 @@ public class Web : MonoBehaviour
 {
     public bool UseExternalDB = false;
     string internalDomain = "http://localhost/UnityBackendTutorial/";
-    string externalDomain = "https://backendtutorial.000webhostapp.com/";
+    string externalDomain = "https://pcfirstonlinedatabase.000webhostapp.com/";
     string urlHeader;
 
     void Start()
